@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="card-icons">
+            <img src="visa.png" alt="Visa" class="card-icon" data-system="visa">
+            <img src="mastercard.png" alt="MasterCard" class="card-icon" data-system="mastercard">
+            <img src="mir.png" alt="МИР" class="card-icon" data-system="mir">
+            <img src="american-express.png" alt="American Express" class="card-icon" data-system="amex">
+            <img src="discover.png" alt="Discover" class="card-icon" data-system="discover">
+            <img src="jcb.png" alt="JCB" class="card-icon" data-system="jcb">
+        </div>
+        
+        <label for="card-input">Номер карты</label>
+        <input id="card-input" placeholder="Введите номер карты" />
+        <button>Проверить</button>
+        
+        <div id="result"></div> 
+        
+        <div class="attribution">
+            Icons by <a href="https://icon-icons.com" target="_blank">icon-icons.com</a>, Icon  <a target="_blank" href="https://icons8.com/icon/XAKPlktCBmzV/mir">"MIR"</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </div>
+    </form>
+</body>
+</html>
