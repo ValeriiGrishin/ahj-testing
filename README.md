@@ -1,3 +1,5 @@
-# Пример E2E тестов
+# Credit Card Validator
+[![Build and Deploy](https://github.com/ValeriiGrishin/ahj-testing/actions/workflows/web.yml/badge.svg)](https://github.com/ValeriiGrishin/ahj-testing/actions/workflows/web.yml)
 
-Jest + Puppeteer + Webpack
+## Описание
+Валидатор номеров кредитных карт с определением платёжной системы.
